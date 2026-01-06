@@ -1,22 +1,5 @@
 
 import streamlit as st
-import pandas as pd
-from datasets import load_dataset
-
-def main():
-    # --- VIẾT BƯỚC 2 VÀO ĐÂY ---
-    print("Đang tải dữ liệu...")
-    dataset = load_dataset("imdb")
-    df_train = pd.DataFrame(dataset['train'])
-    
-    # Xem kết quả
-    print(df_train.head())
-    # ---------------------------
-
-    # Tiếp theo là các bước xử lý khác...
-
-if __name__ == "__main__":
-    main()
 # ==========================
 # ⚙️ CẤU HÌNH TRANG
 # ==========================
