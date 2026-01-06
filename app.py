@@ -1,3 +1,5 @@
+
+import streamlit as st
 import pandas as pd
 from datasets import load_dataset
 
@@ -15,8 +17,6 @@ def main():
 
 if __name__ == "__main__":
     main()
-import streamlit as st
-
 # ==========================
 # ⚙️ CẤU HÌNH TRANG
 # ==========================
